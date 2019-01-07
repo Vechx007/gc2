@@ -47,7 +47,7 @@ client.on('message', message => {
   if(message.author.id !== "375385812860403724" )return;
 const args = message.content.trim().split(/ +/g);
 const command = args.shift().toLowerCase();
-  if ( command === "gc") {
+  if ( command === "gc6") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@375385812860403724> ${credits}`);
   }
@@ -83,7 +83,7 @@ client2.on('message', message => {
   if(message.author.id !== "375385812860403724" )return;
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc2") {
+if (command === "gc7") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@375385812860403724> ${credits}`);
   }
@@ -117,7 +117,7 @@ client3.on('message', message => {
   if(message.author.id !== "375385812860403724" )return;
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc3") {
+if (command === "gc8") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@375385812860403724> ${credits}`);
   }
@@ -152,7 +152,22 @@ client4.on('message', message => {
   if(message.author.id !== "375385812860403724" )return;
   const args = message.content.trim().split(/ +/g);
   const command = args.shift().toLowerCase();
-if (command === "gc4") {
+if (command === "gc9") {
+  let credits = args[0]; 
+  message.channel.send(`#credits  <@375385812860403724> ${credits}`);
+  }
+  if (command === "say") {
+    let thingie = args[0]; 
+    message.channel.send(`${thingie}`);
+    }
+  });
+
+
+client5.on('message', message => {
+  if(message.author.id !== "375385812860403724" )return;
+  const args = message.content.trim().split(/ +/g);
+  const command = args.shift().toLowerCase();
+if (command === "gc10") {
   let credits = args[0]; 
   message.channel.send(`#credits  <@375385812860403724> ${credits}`);
   }
